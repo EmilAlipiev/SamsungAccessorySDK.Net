@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SamsungAccessorySDK.Net</id>
+    <version>1.0.0</version>
+    <title>SamsungAccessorySDK.Net</title>
+    <authors>Emil Alipiev</authors>
+    <owners>EmilAlipiev</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</projectUrl>
+	<repository type="git" url="https://github.com/EmilAlipiev/SamsungAccessorySDK.Net" />
+    <description>SamsungAccessorySDK.net is .net implementation for Xamarin.Android projects</description>
+    <releaseNotes></releaseNotes>
+    <tags>Samsung Accessory SDK, Samsung, SaAgent, SaAgentV2, Tizen, Watch, wearable</tags>    
+	<license type="expression">MIT</license>
+  </metadata>
+   <files>      
+      <!--Android-->
+      <file src="SamsungAccessorySDK\bin\Release\SamsungAccessorySDKNet.dll" target="lib\MonoAndroid10" />  
+	  <file src="SamsungAccessorySDK\bin\Release\SamsungAccessorySDKNet.pdb" target="lib\MonoAndroid10" />  
+    </files>
+</package>
