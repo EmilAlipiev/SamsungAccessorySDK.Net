@@ -1,0 +1,23 @@
+name: Nuget Package Deploy
+
+on: 
+ push:
+   branches: 
+     - master
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+    - uses: actions/checkout@v2     
+    - name: Setup NuGet.exe 
+      uses: NuGet/setup-nuget@v1.0.5    
+    - name: setup-msbuild
+      uses: microsoft/setup-msbuild@v1
+    - name: Build with dotnet
+      run: msbuild SamsungAccessorySDK.sln -property:Configuration=Release
+    - name: Nuget Pack
+      run:  nuget pack SamsungAccessorySDK.nuspec
+    - name: Push Package to nuget
+      run: dotnet nuget push **/*.nupkg
+             --api-key ${{ secrets.nugetapikey }}
+             --source https://api.nuget.org/v3/index.json
