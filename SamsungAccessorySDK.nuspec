@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>SamsungAccessorySDK.Net</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>SamsungAccessorySDK.Net</title>
     <authors>Emil Alipiev</authors>
     <owners>EmilAlipiev</owners>
@@ -10,7 +10,10 @@
     <projectUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</projectUrl>
 	<repository type="git" url="https://github.com/EmilAlipiev/SamsungAccessorySDK.Net" />
     <description>SamsungAccessorySDK.net is .net implementation for Xamarin.Android projects</description>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>Accessory v2.6.4 upgrade...
+	SAAgentV2 now does not use JobService because of its background limitations. Instead it uses Android Service.
+Please refer to Programming Guide and JavaDoc for more details. In particular, Migration Guide attached to the Programming Guide will help you switch from SAAgent to SAAgentV2.
+Emulator Support is removed.</releaseNotes>
     <tags>Samsung Accessory SDK, Samsung, SaAgent, SaAgentV2, Tizen, Watch, wearable</tags>    
 	<license type="expression">MIT</license>
   </metadata>
