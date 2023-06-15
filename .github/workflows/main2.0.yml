@@ -14,9 +14,9 @@ jobs:
     - name: setup-msbuild
       uses: microsoft/setup-msbuild@v1
     - name: Build with dotnet
-      run: msbuild SamsungAccessorySDK\SamsungAccessorySDK.csproj -property:Configuration=Release
+      run: msbuild SamsungAccessorySDK-Maui\SamsungAccessorySDK-Maui.csproj -property:Configuration=Release
     - name: Nuget Pack
-      run:  nuget pack SamsungAccessorySDK.nuspec
+      run:  nuget pack SamsungAccessorySDK-maui.nuspec
     - name: Push Package to nuget
       run: dotnet nuget push **/*.nupkg
              --api-key ${{ secrets.nugetapikey }}
