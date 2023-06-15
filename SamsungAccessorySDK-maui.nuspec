@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
 	<metadata>
 		<id>SamsungAccessorySDK.Net</id>
-		<version>1.2.0</version>
+		<version>2.0.0</version>
 		<title>SamsungAccessorySDK.Net</title>
 		<authors>Emil Alipiev</authors>
 		<owners>EmilAlipiev</owners>
@@ -10,18 +10,13 @@
 		<projectUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</projectUrl>
 		<repository type="git" url="https://github.com/EmilAlipiev/SamsungAccessorySDK.Net" />
 		<description>SamsungAccessorySDK.net is .net implementation for Xamarin.Android projects</description>
-		<releaseNotes>
-			Accessory v2.6.5 upgrade...
-			SAAgentV2 now does not use JobService because of its background limitations. Instead it uses Android Service.
-			Please refer to Programming Guide and JavaDoc for more details. In particular, Migration Guide attached to the Programming Guide will help you switch from SAAgent to SAAgentV2.
-			Emulator Support is removed.
-		</releaseNotes>
+		<releaseNotes>This version targets .net 7 for Maui. Use earlier versions for Xamarin</releaseNotes>
 		<tags>Samsung Accessory SDK, Samsung, SaAgent, SaAgentV2, Maui, Xamarin, Tizen, Watch, wearable</tags>
 		<license type="expression">MIT</license>
 	</metadata>
 	<files>
 		<!--Android-->
-		<file src="SamsungAccessorySDK\bin\Release\SamsungAccessorySDKNet.dll" target="lib\MonoAndroid10" />
-		<file src="SamsungAccessorySDK\bin\Release\SamsungAccessorySDKNet.pdb" target="lib\MonoAndroid10" />
+		<file src="SamsungAccessorySDK-Maui\bin\Release\net7.0-android\SamsungAccessorySDKNet-Maui.dll" target="lib\net7.0-android" />
+		<file src="SamsungAccessorySDK-Maui\bin\Release\net7.0-android\SamsungAccessorySDKNet-Maui.pdb" target="lib\net7.0-android" />
 	</files>
 </package>
