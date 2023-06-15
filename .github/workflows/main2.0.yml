@@ -13,6 +13,8 @@ jobs:
       uses: NuGet/setup-nuget@v1.2.0 
     - name: setup-msbuild
       uses: microsoft/setup-msbuild@v1.3.1
+    - name: Nuget Restore
+      run:  nuget restore SamsungAccessorySDK-Maui\SamsungAccessorySDK-Maui.csproj
     - name: Build with dotnet
       run: msbuild SamsungAccessorySDK-Maui\SamsungAccessorySDK-Maui.csproj -property:Configuration=Release
     - name: Nuget Pack
