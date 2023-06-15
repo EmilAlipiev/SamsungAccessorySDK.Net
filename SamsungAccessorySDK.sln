@@ -1,9 +1,19 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29123.88
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungAccessorySDK", "SamsungAccessorySDK\SamsungAccessorySDK.csproj", "{5E9DB59E-5A30-4E4C-907F-C9124557DA03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamsungAccessorySDK-Maui", "SamsungAccessorySDK-Maui\SamsungAccessorySDK-Maui.csproj", "{581A3107-9E21-4A40-AB96-3AD028C1E409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{358485F5-8048-4321-909C-6EF48E86C7D9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\main.yml = .github\workflows\main.yml
+		.github\workflows\main2.0.yml = .github\workflows\main2.0.yml
+		README.md = README.md
+		SamsungAccessorySDK-maui.nuspec = SamsungAccessorySDK-maui.nuspec
+		SamsungAccessorySDK.nuspec = SamsungAccessorySDK.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,10 @@ Global
 		{5E9DB59E-5A30-4E4C-907F-C9124557DA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E9DB59E-5A30-4E4C-907F-C9124557DA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E9DB59E-5A30-4E4C-907F-C9124557DA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581A3107-9E21-4A40-AB96-3AD028C1E409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581A3107-9E21-4A40-AB96-3AD028C1E409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581A3107-9E21-4A40-AB96-3AD028C1E409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581A3107-9E21-4A40-AB96-3AD028C1E409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
