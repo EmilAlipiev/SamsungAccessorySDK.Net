@@ -9,7 +9,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{358485F5-8048-4321-909C-6EF48E86C7D9}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\main.yml = .github\workflows\main.yml
+		.github\workflows\main2.0.yml = .github\workflows\main2.0.yml
 		README.md = README.md
+		SamsungAccessorySDK-maui.nuspec = SamsungAccessorySDK-maui.nuspec
 		SamsungAccessorySDK.nuspec = SamsungAccessorySDK.nuspec
 	EndProjectSection
 EndProject
