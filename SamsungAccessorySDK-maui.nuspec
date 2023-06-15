@@ -16,7 +16,7 @@
 	</metadata>
 	<files>
 		<!--Android-->
-		<file src="SamsungAccessorySDK-Maui\bin\Release\net7.0-android\SamsungAccessorySDKNet-Maui.dll" target="lib\net7.0-android" />
-		<file src="SamsungAccessorySDK-Maui\bin\Release\net7.0-android\SamsungAccessorySDKNet-Maui.pdb" target="lib\net7.0-android" />
+		<file src="SamsungAccessorySDK-Maui\bin\Release\net7.0-android\SamsungAccessorySDK-Maui.dll" target="lib\net7.0-android" />
+		<file src="SamsungAccessorySDK-Maui\bin\Release\net7.0-android\SamsungAccessorySDK-Maui.pdb" target="lib\net7.0-android" />
 	</files>
 </package>
