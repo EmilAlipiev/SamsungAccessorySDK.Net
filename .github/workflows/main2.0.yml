@@ -6,7 +6,7 @@ on:
      - master
 jobs:
   build:
-    runs-on: windows-2022
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@v3.5.3  
     - name: Setup NuGet.exe 
@@ -17,8 +17,6 @@ jobs:
       run:  nuget restore SamsungAccessorySDK-Maui\SamsungAccessorySDK-Maui.csproj
     - name: Build with dotnet
       run: msbuild SamsungAccessorySDK-Maui\SamsungAccessorySDK-Maui.csproj -property:Configuration=Release
-    - name: Nuget Pack
-      run:  nuget pack SamsungAccessorySDK-maui.nuspec -verbosity d
     - name: Push Package to nuget
       run: dotnet nuget push **/*.nupkg
              --api-key ${{ secrets.nugetapikey }}
