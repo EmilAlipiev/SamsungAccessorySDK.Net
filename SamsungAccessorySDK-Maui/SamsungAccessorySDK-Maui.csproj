@@ -1,41 +1,42 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net7.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <RootNamespace>SamsungAccessorySDK_Maui</RootNamespace>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <PackageId>SamsungAccessorySDK.Net</PackageId>
-    <Company>Emil Alipiev</Company>
-    <Product>SamsungAccessorySDK</Product>
-    <Authors>Emil Alipiev</Authors>
-    <Description>SamsungAccessorySDK.net is .net implementation for Maui.Android projects</Description>
-    <Copyright>Emil Alipiev</Copyright>
-    <PackageProjectUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</PackageProjectUrl>
-    <PackageIcon>icon.png</PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageTags>Samsung Accessory SDK, Samsung, SaAgent, SaAgentV2, Maui, Xamarin, Tizen, Watch, wearable</PackageTags>
-    <PackageReleaseNotes>This version targets .net 7 for Maui. Use earlier versions for Xamarin</PackageReleaseNotes>
-    <FileVersion>2.0.0</FileVersion>
-    <AssemblyVersion>2.0.0</AssemblyVersion>
-    <IncludeSymbols>True</IncludeSymbols>
-    <Title>SamsungAccessorySDK.Net</Title>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\accessory-v2.6.5.jar" />
-    <None Remove="Jars\sdk-v1.0.0.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\icon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<RootNamespace>SamsungAccessorySDK_Maui</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PackageId>SamsungAccessorySDK.Net</PackageId>
+		<Company>Emil Alipiev</Company>
+		<Product>SamsungAccessorySDK</Product>
+		<Authors>Emil Alipiev</Authors>
+		<Description>SamsungAccessorySDK.net is .net implementation for Maui.Android projects</Description>
+		<Copyright>Emil Alipiev</Copyright>
+		<PackageProjectUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Samsung Accessory SDK, Samsung, SaAgent, SaAgentV2, Maui, Xamarin, Tizen, Watch, wearable</PackageTags>
+		<PackageReleaseNotes>This version targets .net 7 for Maui. Use earlier versions for Xamarin</PackageReleaseNotes>
+		<FileVersion>2.0.0</FileVersion>
+		<AssemblyVersion>2.0.0</AssemblyVersion>
+		<IncludeSymbols>True</IncludeSymbols>
+		<Title>SamsungAccessorySDK.Net</Title>
+		<VersionPrefix>2.0.0</VersionPrefix>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\accessory-v2.6.5.jar" />
+		<None Remove="Jars\sdk-v1.0.0.jar" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 </Project>
