@@ -4,6 +4,8 @@ on:
  push:
    branches: 
      - master
+   paths:
+    - 'SamsungAccessorySDK.nuspec'
 jobs:
   build:
     runs-on: windows-2022
