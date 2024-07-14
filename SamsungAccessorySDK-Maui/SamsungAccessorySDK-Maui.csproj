@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net7.0-android;net8.0-android</TargetFramework>
+		<TargetFrameworks>net7.0-android;net8.0-android</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<RootNamespace>SamsungAccessorySDK_Maui</RootNamespace>
 		<Nullable>enable</Nullable>
@@ -17,12 +17,12 @@
 		<RepositoryUrl>https://github.com/EmilAlipiev/SamsungAccessorySDK.Net</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>Samsung Accessory SDK, Samsung, SaAgent, SaAgentV2, Maui, Xamarin, Tizen, Watch, wearable</PackageTags>
-		<PackageReleaseNotes>This version targets .net 7 for Maui. Use earlier versions for Xamarin</PackageReleaseNotes>
-		<FileVersion>2.0.0</FileVersion>
-		<AssemblyVersion>2.0.0</AssemblyVersion>
+		<PackageReleaseNotes>This version targets .net 7, .net 8 for Maui. Use earlier versions for Xamarin</PackageReleaseNotes>
+		<FileVersion>2.0.1</FileVersion>
+		<AssemblyVersion>2.0.1</AssemblyVersion>
 		<IncludeSymbols>True</IncludeSymbols>
 		<Title>SamsungAccessorySDK.Net</Title>
-		<VersionPrefix>2.0.0</VersionPrefix>
+		<VersionPrefix>2.0.1</VersionPrefix>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 	<ItemGroup>
