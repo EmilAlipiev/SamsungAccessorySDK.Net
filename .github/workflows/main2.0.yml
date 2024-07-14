@@ -4,6 +4,8 @@ on:
  push:
    branches: 
      - master
+   paths:
+     - 'SamsungAccessorySDK-maui.nuspec'
 jobs:
   build:
     runs-on: windows-latest
